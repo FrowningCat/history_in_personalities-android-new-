@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#171717"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:src="@drawable/headerphoto" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:padding="4dp"
+            android:text="Aнри Филипп Петен"
+            android:textColor="#f6f6f6"
+            android:textSize="38sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/playfair_display_bold"
+            android:longClickable="true"
+            android:text="Герой Предатель Патриот"
+            android:textColor="#f6f6f6"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:text="27.11"
+            android:textColor="#ff5000"
+            android:textSize="96sp" />
+
+        <TextView
+            android:layout_marginTop="130dp"
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="История в личностях"
+            android:layout_marginRight="20dp"
+            android:textColor="#f6f6f6"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Взгляните на исторические события глазами их вершителей"
+            android:layout_gravity="end"
+            android:textColor="#f6f6f6"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Человек хорошо знающий историю, не только своей страны, но и других, в меньшей степени подвержен влиянию пропаганды и имеет более критический взгляд на мир. Задача данного проекта дать возможность читателю взглянуть на исторические личности с другой стороны, не с целью оправдать или принизить их, а с целью понять причины их действий."
+            android:textColor="#999"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</ScrollView>
