@@ -28,7 +28,7 @@
             android:padding="4dp"
             android:text="Aнри Филипп Петен"
             android:textColor="#f6f6f6"
-            android:textSize="38sp" />
+            android:textSize="34sp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -53,13 +53,14 @@
             android:textSize="96sp" />
 
         <TextView
-            android:layout_marginTop="130dp"
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:text="История в личностях"
+            android:layout_marginTop="130dp"
             android:layout_marginRight="20dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:text="История в личностях"
             android:textColor="#f6f6f6"
             android:textSize="30sp" />
 
@@ -67,26 +68,149 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:text="Взгляните на исторические события глазами их вершителей"
             android:layout_gravity="end"
-            android:textColor="#f6f6f6"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/playfair_display_bold"
             android:gravity="right"
-            android:textSize="24sp" />
+            android:text="Взгляните на исторические события глазами их вершителей"
+            android:textColor="#f6f6f6"
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textView7"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:gravity="right"
             android:text="Человек хорошо знающий историю, не только своей страны, но и других, в меньшей степени подвержен влиянию пропаганды и имеет более критический взгляд на мир. Задача данного проекта дать возможность читателю взглянуть на исторические личности с другой стороны, не с целью оправдать или принизить их, а с целью понять причины их действий."
             android:textColor="#999"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/linkToCat"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/playfair_display_bold"
             android:gravity="right"
-            android:textSize="24sp" />
+            android:text="Узнать больше"
+            android:textColor="#ff5000"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/josephii" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/louisrenault" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/salvadordali" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/emperormeiji" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/richelieu" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/immanuelkant" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:gravity="right"
+            android:text="Aнри Филипп Петен"
+            android:textColor="#f6f6f6"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#171717"
+            android:orientation="horizontal"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/playfair_display_bold"
+                android:gravity="left"
+                android:text="Как, герой первой мировой войны, “Верденский лев”, патриот своей страны, возглавил колабрационное, про немецкое правительство, и почему долгие десятилетия французские политики возлагают цветы на его могилу."
+                android:textColor="#999"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/teaserphoto" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/linkToPeten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:gravity="right"
+            android:text="Узнать больше"
+            android:textColor="#ff5000"
+            android:textSize="22sp" />
 
     </LinearLayout>
 </ScrollView>
