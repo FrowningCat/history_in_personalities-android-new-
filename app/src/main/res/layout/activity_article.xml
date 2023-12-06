@@ -41,7 +41,7 @@
                 tools:context=".MainActivity">
 
                 <LinearLayout
-                    android:layout_width="180dp"
+                    android:layout_width="160dp"
                     android:layout_height="255dp"
                     android:background="#171717"
                     android:orientation="vertical"
@@ -50,6 +50,7 @@
                     <ImageView
                         android:id="@+id/imageView9"
                         android:layout_width="180dp"
+                        android:scaleType="centerCrop"
                         android:layout_height="200dp"
                         app:srcCompat="@drawable/philippepetain" />
 
@@ -65,7 +66,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="180dp"
+                    android:layout_width="160dp"
                     android:layout_height="255dp"
                     android:layout_marginLeft="10dp"
                     android:background="#171717"
@@ -74,6 +75,7 @@
 
                     <ImageView
                         android:id="@+id/imageView10"
+                        android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
                         app:srcCompat="@drawable/ferdinandporsche" />
@@ -102,14 +104,16 @@
                 tools:context=".MainActivity">
 
                 <LinearLayout
-                    android:layout_width="180dp"
+                    android:layout_width="160dp"
                     android:layout_height="255dp"
                     android:background="#171717"
                     android:orientation="vertical"
                     tools:context=".MainActivity">
 
                     <ImageView
+                        android:paddingRight="100dp"
                         android:id="@+id/imageView11"
+                        android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
                         app:srcCompat="@drawable/cardinalrichelieu" />
@@ -126,7 +130,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="180dp"
+                    android:layout_width="160dp"
                     android:layout_height="255dp"
                     android:layout_marginLeft="10dp"
                     android:background="#171717"
@@ -134,7 +138,10 @@
                     tools:context=".MainActivity">
 
                     <ImageView
+                        android:paddingRight="20dp"
+                        android:paddingTop="40dp"
                         android:id="@+id/imageView12"
+                        android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
                         app:srcCompat="@drawable/guntherquandt" />
@@ -155,7 +162,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="50dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#171717"
@@ -184,7 +191,7 @@
                 tools:context=".MainActivity">
 
                 <LinearLayout
-                    android:layout_width="180dp"
+                    android:layout_width="160dp"
                     android:layout_height="255dp"
                     android:background="#171717"
                     android:orientation="vertical"
@@ -192,6 +199,7 @@
 
                     <ImageView
                         android:id="@+id/imageView13"
+                        android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
                         app:srcCompat="@drawable/alexandetgreat" />
@@ -208,7 +216,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="180dp"
+                    android:layout_width="160dp"
                     android:layout_height="255dp"
                     android:layout_marginLeft="10dp"
                     android:background="#171717"
@@ -217,6 +225,7 @@
 
                     <ImageView
                         android:id="@+id/imageView14"
+                        android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
                         app:srcCompat="@drawable/charlesdegaulle" />
@@ -252,8 +261,10 @@
                     tools:context=".MainActivity">
 
                     <ImageView
+                        android:paddingTop="20dp"
                         android:id="@+id/imageView15"
                         android:layout_width="180dp"
+                        android:scaleType="centerCrop"
                         android:layout_height="200dp"
                         app:srcCompat="@drawable/franciscofranco" />
 
@@ -304,7 +315,7 @@
 
                 <LinearLayout
                     android:layout_width="180dp"
-                    android:layout_height="275dp"
+                    android:layout_height="280dp"
                     android:background="#171717"
                     android:orientation="vertical"
                     tools:context=".MainActivity">
@@ -313,12 +324,14 @@
                         android:id="@+id/imageView17"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
+                        android:layout_marginTop="-55dp"
                         app:srcCompat="@drawable/_04" />
 
                     <TextView
+                        android:layout_marginTop="-45dp"
                         android:id="@+id/textView20"
                         android:layout_width="180dp"
-                        android:layout_height="75dp"
+                        android:layout_height="80dp"
                         android:fontFamily="@font/playfair_display_bold"
                         android:gravity="center"
                         android:text="Василий Яковлевич Баранщиков"
