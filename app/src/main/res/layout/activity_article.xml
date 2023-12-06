@@ -1,9 +1,334 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".article">
+    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#171717"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#171717"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/playfair_display_bold"
+                android:text="Незаслуженно очерненные"
+                android:textColor="#f6f6f6"
+                android:textSize="26sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#171717"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="255dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/philippepetain" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="180dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Анри Филипп Петен"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="255dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/ferdinandporsche" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="150dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Фердинанд Порше"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#171717"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="255dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/cardinalrichelieu" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="180dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Кардинал Решелье"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="255dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/guntherquandt" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="130dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Гюнтер Квант"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#171717"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/playfair_display_bold"
+                android:text="Незаслуженно возвеличеные"
+                android:textColor="#f6f6f6"
+                android:textSize="26sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#171717"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="255dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/alexandetgreat" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="180dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Александр Македонский"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="255dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/charlesdegaulle" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="140dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Шарль де Голь"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#171717"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="255dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/franciscofranco" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="180dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Франциско Франко"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#171717"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/playfair_display_bold"
+                android:text="Безумные истории"
+                android:textColor="#f6f6f6"
+                android:textSize="26sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#171717"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="275dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/_04" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="180dp"
+                        android:layout_height="75dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Василий Яковлевич Баранщиков"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

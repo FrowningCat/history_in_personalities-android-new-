@@ -14,11 +14,11 @@ class MainActivity : AppCompatActivity() {
         var linkToPeten: TextView = findViewById(R.id.linkToPeten)
 
         linkToPeten.setOnClickListener{
-            val intent = Intent(this, article::class.java)
+            val intent = Intent(this, peten::class.java)
             startActivity(intent)
         }
         linkToCategory.setOnClickListener{
-            val intent = Intent(this, peten::class.java)
+            val intent = Intent(this, article::class.java)
             startActivity(intent)
         }
     }
