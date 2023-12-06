@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         var linkToPeten: TextView = findViewById(R.id.linkToPeten)
 
         linkToPeten.setOnClickListener{
-            val intent = Intent(this, peten::class.java)
+            val intent = Intent(this, error::class.java)
             startActivity(intent)
         }
         linkToCategory.setOnClickListener{
