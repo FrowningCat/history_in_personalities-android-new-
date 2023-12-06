@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#171717"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/linkToFirstSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/playfair_display_bold"
+                android:text="Незаслуженно очерненные"
+                android:textColor="#f6f6f6"
+                android:textSize="26sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#171717"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="255dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/linkToError14"
+                        android:layout_width="180dp"
+                        android:scaleType="centerCrop"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/philippepetain" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="180dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Анри Филипп Петен"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="255dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:id="@+id/linkToError15"
+                        android:scaleType="centerCrop"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/ferdinandporsche" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="150dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Фердинанд Порше"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#171717"
+                android:orientation="horizontal"
+                tools:context=".MainActivity">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="255dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:paddingRight="100dp"
+                        android:id="@+id/linkToError16"
+                        android:scaleType="centerCrop"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/cardinalrichelieu" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="180dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Кардинал Решелье"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="255dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#171717"
+                    android:orientation="vertical"
+                    tools:context=".MainActivity">
+
+                    <ImageView
+                        android:paddingRight="20dp"
+                        android:paddingTop="40dp"
+                        android:id="@+id/linkToError17"
+                        android:scaleType="centerCrop"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/guntherquandt" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="130dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/playfair_display_bold"
+                        android:gravity="center"
+                        android:text="Гюнтер Квант"
+                        android:textColor="#f6f6f6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

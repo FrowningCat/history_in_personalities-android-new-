@@ -20,7 +20,7 @@
             tools:context=".MainActivity">
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/linkToFirstSection"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
@@ -48,7 +48,7 @@
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/linkToPeten2"
+                        android:id="@+id/linkToError14"
                         android:layout_width="180dp"
                         android:scaleType="centerCrop"
                         android:layout_height="200dp"
@@ -74,7 +74,7 @@
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/linkToError7"
+                        android:id="@+id/linkToError15"
                         android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
@@ -112,7 +112,7 @@
 
                     <ImageView
                         android:paddingRight="100dp"
-                        android:id="@+id/linkToError9"
+                        android:id="@+id/linkToError16"
                         android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
@@ -140,7 +140,7 @@
                     <ImageView
                         android:paddingRight="20dp"
                         android:paddingTop="40dp"
-                        android:id="@+id/linkToError8"
+                        android:id="@+id/linkToError17"
                         android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
@@ -170,7 +170,7 @@
             tools:context=".MainActivity">
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/linkToSecondSection"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
@@ -292,7 +292,7 @@
             tools:context=".MainActivity">
 
             <TextView
-                android:id="@+id/textView21"
+                android:id="@+id/linkToThirdSection"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
