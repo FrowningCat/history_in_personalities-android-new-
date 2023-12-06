@@ -48,7 +48,7 @@
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/imageView9"
+                        android:id="@+id/linkToPeten2"
                         android:layout_width="180dp"
                         android:scaleType="centerCrop"
                         android:layout_height="200dp"
@@ -74,7 +74,7 @@
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/imageView10"
+                        android:id="@+id/linkToError7"
                         android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
@@ -112,7 +112,7 @@
 
                     <ImageView
                         android:paddingRight="100dp"
-                        android:id="@+id/imageView11"
+                        android:id="@+id/linkToError9"
                         android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
@@ -140,7 +140,7 @@
                     <ImageView
                         android:paddingRight="20dp"
                         android:paddingTop="40dp"
-                        android:id="@+id/imageView12"
+                        android:id="@+id/linkToError8"
                         android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
@@ -198,7 +198,7 @@
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/imageView13"
+                        android:id="@+id/linkToError10"
                         android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
@@ -224,7 +224,7 @@
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/imageView14"
+                        android:id="@+id/linkToError11"
                         android:scaleType="centerCrop"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
@@ -262,7 +262,7 @@
 
                     <ImageView
                         android:paddingTop="20dp"
-                        android:id="@+id/imageView15"
+                        android:id="@+id/linkToError12"
                         android:layout_width="180dp"
                         android:scaleType="centerCrop"
                         android:layout_height="200dp"
@@ -321,7 +321,7 @@
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/imageView17"
+                        android:id="@+id/linkToError13"
                         android:layout_width="180dp"
                         android:layout_height="200dp"
                         android:layout_marginTop="-55dp"

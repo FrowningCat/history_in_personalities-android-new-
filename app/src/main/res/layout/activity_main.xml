@@ -105,7 +105,7 @@
             android:textSize="22sp" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/linkToError1"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="300dp"
@@ -115,7 +115,7 @@
             app:srcCompat="@drawable/josephii" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/linkToError2"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="300dp"
@@ -125,7 +125,7 @@
             app:srcCompat="@drawable/louisrenault" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/linkToError3"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="300dp"
@@ -135,7 +135,7 @@
             app:srcCompat="@drawable/salvadordali" />
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/linkToError4"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="300dp"
@@ -145,7 +145,7 @@
             app:srcCompat="@drawable/emperormeiji" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/linkToError5"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:scaleType="centerCrop"
@@ -156,7 +156,7 @@
 
         <ImageView
             android:paddingTop="100dp"
-            android:id="@+id/imageView7"
+            android:id="@+id/linkToError6"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="300dp"
